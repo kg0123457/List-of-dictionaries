@@ -60,9 +60,10 @@ class operation:
                     
         if option == str(4):
             the_first_name_to_edit = str(input("The first name of contact to delete:>"))
-            for i in range(len(contact_list)-1):
+            for i in range(len(contact_list)):
                 if contact_list[i]["first_name"] == str(the_first_name_to_edit):
-                    contact_list.remove(contact_list[i])
+                    print(contact_list[i])
+                    del contact_list[i]
             
         return option
             
