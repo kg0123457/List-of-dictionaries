@@ -1,9 +1,7 @@
 global option
 option = 0
 
-contact_list = [{"first_name" : "Kyle", "last_name" : "Goertzen", "phone_number" : "2504302171"},
-                {"first_name" : "Dylin", "last_name" : "Grbich-Zaytsoff", "phone_number" : "2365865188"},
-				{"first_name" : "Kianna", "last_name" : "Norman", "phone_number" : "2365865240"}]
+contact_list = [{"first_name" : "Kyle", "last_name" : "Goertzen", "phone_number" : "2504302171"}, {"first_name" : "Dylin", "last_name" : "Grbich-Zaytsoff", "phone_number" : "2365865188"}, {"first_name" : "Kianna", "last_name" : "Norman", "phone_number" : "2365865240"}]
 
 class operation:
     def __init__(self, name, message):
