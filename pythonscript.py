@@ -10,13 +10,13 @@ class operation:
         
     def get_options(self):
         global option
-        option = str(input("Enter a number between 0 and 4:>"))
+        option = str(input("Enter a number 0-5:>"))
         if str(option).isdigit():
             while not str(option).isdigit() and str(option).isalpha and str(option) and option >= 0 and option <= 4:
-                option = str(input("Enter a number between 0 and 4:>"))
+                option = str(input("Enter a number 0-5:>"))
         if str(option).isalpha():
             while not str(option).isdigit() and str(option).isalpha and str(option):
-                option = str(input("Enter a number between 0 and 4:>"))
+                option = str(input("Enter a number 0-5:>"))
         return option
 
     def print_options(self):
